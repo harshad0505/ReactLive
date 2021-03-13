@@ -1,4 +1,5 @@
 import React from 'react';
+import img1 from '../Image/game,png'
 
 function project(){
     return(
@@ -23,7 +24,7 @@ function project(){
 
         <div className="box3" data-aos="fade-left">
           <div className="pro" >
-            <img src={require('/Image/game.png')}></img>
+            <img src={img1}></img>
             <h2>GUESS THE NUMBER</h2>
             <p>This Wesbite Create with the help of html,css,js & also with the help of React</p>
           </div>
