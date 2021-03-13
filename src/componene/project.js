@@ -16,7 +16,7 @@ function project(){
 
         <div className="box3" data-aos="zoom-out">
           <div className="pro">
-            <img src={require('/Image/weat.png')}></img>
+            <img src={require('/Image/weat.png').default}></img>
             <h2>WEATHER FORCAST</h2>
             <p>This Wesbite Create with the help of html,css,js & also with the help of React</p>
           </div>
